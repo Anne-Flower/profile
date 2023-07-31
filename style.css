@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html{
+  filter: hue-rotate(45deg);
+}
+h1 {
+  color:#FF55BB;
+  text-decoration-style: wavy;
+  font-size:large
+  
+}
+h2 {
+  color:black;
+  
+}
+body{
+  background-image: url("https://kiblind-atelier.com/cdn/shop/products/Posters-Ardneks-5_1500x1500.jpg?v=1657635724");
+  background-position: 30% 10%;
+  background-size: 100%;
+  font-family: oxygen;
+  text-align: center;
+}
+p {
+  color:black;
+
+}
+img {
+  border-radius: 200px;
+  text-align: center;
+}
+a:hover {
+  color:darkorange;
+}
+a {
+  color: black;
+}
+.left {
+  padding: 10px;                           
+  /* border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7); */
+  text-align: left;
+  margin-left: 5%;
+  font-weight: 800;
+  font-size: 34px;
+}
+.middle {
+  padding: 30px;                           
+  border-radius: 4px;
+  text-align: right;
+}
+.right{ 
+  text-align: end;
+  padding-bottom: 10%;
+  margin-right: 5%;
+}
+.flex {
+  display:flex;
+  justify-content: space-between;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.921), rgba(117, 19, 93, 0)),
+    url("/profile/images/giphy (1).gif");
+  margin-right: 3.3%;
+  margin-left: 3.1%;
+  margin-top: 2%;
+}
+li {
+  list-style: none;
+}
+.background-opacity {
+background-color: rgba(50),(50),(50), (10%);
+}
+
+html {
+  -webkit-animation: filter-animation 8s infinite;
+  animation: filter-animation 3s infinite;
+}
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    -webkit-filter: hue-rotate(100deg);
+  }
+  
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
+
+@keyframes filter-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    filter: hue-rotate(100deg);
+  }
+  
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
+#pouf{
+  position: absolute;
+  top: 40%;
+  left: 20%
+}
